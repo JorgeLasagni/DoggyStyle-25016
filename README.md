@@ -38,6 +38,4 @@ DoggyStyle es una tienda online dedicada a la venta de productos para mascotas, 
 - Mejorar la validación del formulario, agregar campos para identificar características de quien contacta.
 - Agregar páginas con otras funcionalidades.
 
----
-
 ¡Gracias por visitar DoggyStyle!
