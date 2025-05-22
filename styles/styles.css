@@ -166,6 +166,9 @@ footer img {
     flex-direction: column;
     align-items: center;
   }
+  .bienvenida {
+    flex-direction: column;
+  }
 }
 
 .bienvenida {
