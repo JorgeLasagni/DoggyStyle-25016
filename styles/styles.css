@@ -7,15 +7,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #fdf6fd;
   color: #333;
   line-height: 1.6;
+  background: #3F5EFB;
+  background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 header {
-  background: linear-gradient(to right, #b993d6, #8ca6db);
   padding: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #d12c73;
+  background: radial-gradient(circle, rgba(209, 44, 115, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
 
 nav {
@@ -37,7 +38,11 @@ nav ul li a {
   color: white;
   font-weight: bold;
 }
-
+nav ul li a.active {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+}
 .logo {
   height: 50px;
 }
@@ -47,11 +52,13 @@ main {
 }
 
 footer {
-  background-color: #8ca6db;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #645de6;
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 4%, rgba(230, 0, 255, 1) 91%);
 }
 
 footer img {
@@ -103,8 +110,6 @@ footer img {
 }
 
 /* Contacto responsivo */
-
-
 .contacto {
   padding: 40px 20px;
   background-color: #e6e0f8;
@@ -157,6 +162,10 @@ footer img {
     flex-direction: column;
     align-items: center;
   }
+  .grid-reseñas {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .bienvenida {
@@ -164,38 +173,3 @@ footer img {
   margin: 2rem 0;
   color: #9e0e0e;
 }
-/* .bienvenida h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-.bienvenida p {
-  font-size: 1.2rem;
-  color: #555;
-  text-align: center;
-}
-.bienvenida img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-}
-.bienvenida .btn {
-  background-color: #8ca6db;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-.bienvenida .btn:hover {
-  background-color: #7a9bcf;
-}
-/* Animaciones */
-/* @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-} */
