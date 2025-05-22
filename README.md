@@ -1,5 +1,5 @@
 # DoggyStyle E-Commerce
-
+Tu mascota en todas partes!
 ## Autor
 Proyecto realizado por Jorge Mario Lasagni (DNI 10894894).
 
