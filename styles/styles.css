@@ -14,7 +14,8 @@ body {
 }
 
 header {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  padding: 0.30rem 0;
   background: #d12c73;
   background: radial-gradient(circle, rgba(209, 44, 115, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
@@ -33,10 +34,12 @@ nav ul {
   gap: 1rem;
 }
 
-nav ul li a {
+nav ul li a:hover {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  /* transform: scale(2); */
+  transition: transform 0.3s ease;
 }
 nav ul li a.active {
   background-color: #007BFF;
@@ -48,22 +51,15 @@ nav ul li a.active {
 }
 
 main {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 footer {
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 0.30rem 0;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  background: #645de6;
-  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 4%, rgba(230, 0, 255, 1) 91%);
-}
-
-footer img {
-  height: 24px;
-  margin: 0 0.5rem;
+  background: radial-gradient(circle, rgb(233, 60, 218) 6%, rgb(0, 26, 255) 91%);
 }
 
 /* Flexbox para productos */
@@ -111,7 +107,7 @@ footer img {
 
 /* Contacto responsivo */
 .contacto {
-  padding: 40px 20px;
+  padding: 20px 10px;
   background-color: #e6e0f8;
   text-align: center;
 }
@@ -171,7 +167,8 @@ footer img {
 
 .bienvenida {
   text-align: center;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
+  margin: 0;
   color: #9e0e0e;
 }
 
@@ -196,3 +193,22 @@ footer img {
   border: 0;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  /* margin-top: 20px; */
+  margin: 0;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Efecto general */
+.social-icons a:hover img {
+  transform: scale(2);
+}
