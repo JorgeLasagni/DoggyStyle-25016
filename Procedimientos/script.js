@@ -38,7 +38,6 @@ if(productosContainer){
     saveCart(); updateBadge();
   });
 }
-
 /* Página Carrito */
 const cartBody = document.getElementById("cart-body");
 if(cartBody){

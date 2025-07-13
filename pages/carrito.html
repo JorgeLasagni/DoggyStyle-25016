@@ -31,8 +31,8 @@
     <table>
       <thead><tr><th>Producto</th><th>Cant.</th><th>P/u</th><th>Subtotal</th><th></th></tr></thead>
       <tbody id="cart-body"></tbody>
-      <tfoot><tr><td colspan="3" style="text-align:right"><strong>Total:</strong></td>
-               <td id="cart-total"></td><td></td></tr></tfoot>
+      <tfoot><tr> <td colspan="3" style="text-align:right"><strong>Total:</strong></td>
+                  <td id="cart-total"></td><td></td></tr></tfoot>
     </table>
 
     <div class="actions">
@@ -41,7 +41,7 @@
     </div>
 
     <!-- Checkout (Formspree) oculto hasta click en Finalizar -->
-    <!-- <section id="checkout-section" class="hidden">
+    <section id="checkout-section" class="hidden">
       <h2>Finalizar compra</h2>
       <form id="checkout-form" action="https://formspree.io/f/xnndynov" method="POST" enctype="multipart/form-data" novalidate>
         <input type="text" name="nombre" placeholder="Tu nombre*" required>
@@ -50,7 +50,7 @@
         <input type="hidden" name="pedido" id="campo-pedido" />
         <div class="actions"><button type="submit">Enviar pedido</button></div>
       </form>
-    </section> -->
+    </section>
   </main>
 
 
