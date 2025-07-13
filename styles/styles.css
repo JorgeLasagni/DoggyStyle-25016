@@ -63,7 +63,14 @@ footer {
 }
 
 /* Flexbox para productos */
-.productos-flex {
+/* .productos-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+} */
+.grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

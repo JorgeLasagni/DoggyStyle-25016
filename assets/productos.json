@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Cámara Vintage",
+    "price": 15000,
+    "image": "https://picsum.photos/seed/cam/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Auriculares Pro",
+    "price": 12000,
+    "image": "https://picsum.photos/seed/head/300/200"
+  },
+  {
+    "id": 3,
+    "title": "Smartwatch X",
+    "price": 18000,
+    "image": "https://picsum.photos/seed/watch/300/200"
+  },
+  {
+    "id": 4,
+    "title": "Mochila Urbana",
+    "price": 8000,
+    "image": "https://picsum.photos/seed/bag/300/200"
+  }
+]
