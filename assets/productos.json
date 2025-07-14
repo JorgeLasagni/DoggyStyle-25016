@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Cámara Vintage",
-    "price": 15000,
-    "image": "https://picsum.photos/seed/cam/300/200"
+    "title": "Chapita de Identificación",
+    "price": 10000,
+    "image": "../assets/img/productos/chapita.jpg"
   },
   {
     "id": 2,
-    "title": "Auriculares Pro",
-    "price": 12000,
-    "image": "https://picsum.photos/seed/head/300/200"
+    "title": "Vaso Térmico Personalizado",  
+    "price": 11000,
+    "image": "../assets/img/productos/taza.jpg"
   },
   {
     "id": 3,
-    "title": "Smartwatch X",
-    "price": 18000,
-    "image": "https://picsum.photos/seed/watch/300/200"
+    "title": "Anotador Personalizado",
+    "price": 12000,
+    "image": "../assets/img/productos/agenda.jpg"
   },
   {
     "id": 4,
-    "title": "Mochila Urbana",
-    "price": 8000,
-    "image": "https://picsum.photos/seed/bag/300/200"
+    "title": "Juego de Mate Personalizado",
+    "price": 13000,
+    "image": "../assets/img/productos/mate.jpg"
   }
 ]
